@@ -2,6 +2,8 @@
 body{
     font-family: 'Mulish', sans-serif;
     margin: 0;
+   
+    
 }
 /* section-1 */
 h1{
@@ -10,7 +12,7 @@ h1{
 }
 /* section- 02 */
 h2{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(112, 108, 108);
     font-weight:800;
     font-family: sans-serif;
@@ -45,9 +47,10 @@ font-weight: 500;
     font-weight: 700;
 }
 /* section-01/02 */
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 5%;
+    
 }
 
 .banner{
@@ -56,8 +59,8 @@ section{
 /* section-01/02 */
 .half-width{
     width: 50%;
-    margin-left: 8%;
-    margin-right: 0%;
+    margin-left: 5%;
+    margin-right: 0;
     margin-top: 5%;
   
     
@@ -66,6 +69,7 @@ section{
 .half-width img{
     width: 100%;
     margin-bottom: 5%;
+
 
 
 }
@@ -82,25 +86,91 @@ section{
     border: 0px solid;
     
 }
+/* secton-03 */
+.section-three{
+    margin:0px;
+    
+
+}
+.half {
+    width: 50%;
+    margin-left: 10%;
+    text-align: center;
+}
+    .half img{
+        margin-top: 20px;
+        width: 300px;
+        
+       overflow: hidden;
+    }
+    .recipie-title{
+        width: 100px;
+        height: 120px;
+        text-align: center;
+        margin-left: 14%;
+        margin-bottom: 30px;
+        ;
+    }
+.my-recipies{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.recipies-details{
+    width: 50%;
+    margin-left: 25%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#recipie-title-one{
+    background-color:rgb(235, 244, 247);
+border-radius: 40px;
+}
+#recipie-title-two{
+    background-color:rgb(235, 244, 247);
+   
+
+    border: 7px solid white;
+border-radius: 20px;
 
 
+}
+#Recipie-title-three{
+    background-color:rgb(235,244,247);
+    border-radius: 20px;
+    }
+.flowers{
+    width: 50%;
+    margin-left: 13%;
+    
+    margin-top: 5%;
+}
+.section-4{
+    background-color:hsl(36, 20%, 90%);
+    
+}
+h2{
+    color: black;
+    font-size: 50px;
+  
+}
+footer {
+    background: black;
+    color:white;
+    width: 100%;
+    min-height: 200px;
+    padding: 30px;
+    text-align: center;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.food{
+    color:orange;
+}
+h3{
+    font-size: 25px;
+}
+.food-healthy{
+  color: rgb(202, 196, 197);
+}
 
